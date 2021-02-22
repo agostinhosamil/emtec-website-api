@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/socialmedias",
+      "handler": "socialmedias.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socialmedias/count",
+      "handler": "socialmedias.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/socialmedias/:id",
+      "handler": "socialmedias.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/socialmedias",
+      "handler": "socialmedias.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/socialmedias/:id",
+      "handler": "socialmedias.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/socialmedias/:id",
+      "handler": "socialmedias.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
